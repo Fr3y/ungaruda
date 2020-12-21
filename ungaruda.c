@@ -31,7 +31,7 @@ int main(int argc, char ** argv) {
     switch (ch) {
     case 'b':
       printf("Removing all garuda browser extensions\n");
-	  system("pkexec pacman -R firefox-extension-google-search-link-fix firefox-dark-reader firefox-decentraleyes firefox-extension-canvasblocker firefox-extension-https-everywhere firefox-extension-keepassxc-browser firefox-extension-privacybadger firefox-extension-xdm-browser-monitor firefox-ublock-origin xdman-2020 garuda-firefox");
+	  system("pkexec pacman -R firefox-extension-google-search-link-fix firefox-dark-reader firefox-decentraleyes firefox-extension-canvasblocker firefox-extension-https-everywhere firefox-extension-keepassxc-browser firefox-extension-privacybadger firefox-extension-xdm-browser-monitor firefox-ublock-origin xdman garuda-firefox");
       exit(0);
     case 'g':
 	  grub = 1;
@@ -46,11 +46,11 @@ int main(int argc, char ** argv) {
     case 'a':
 	  all = 1;
       printf("Removing all garuda packages.\n");
-	  system("pkexec pacman -R grub-garuda grub-theme-garuda os-prober-garuda plymouth-theme-garuda garuda-browser-settings firefox-dark-reader firefox-extension-google-search-link-fix garuda-firefox firefox-decentraleyes firefox-extension-canvasblocker firefox-extension-https-everywhere firefox-extension-keepassxc-browser firefox-extension-privacybadger firefox-extension-xdm-browser-monitor firefox-ublock-origin xdman-2020 garuda-welcome-git garuda-bluetooth garuda-boot-options-git garuda-gstreamer garuda-hooks garuda-ibus garuda-icons garuda-input garuda-modem garuda-network garuda-network-assistant-git garuda-settings-manager-git garuda-settings-manager-knotifier-git garuda-settings-samba garuda-vaapi garuda-wallpapers garuda-welcome-git garuda-xfce-settings garuda-zsh-config");
+	  system("pkexec pacman -R grub-garuda grub-theme-garuda os-prober-garuda plymouth-theme-garuda garuda-browser-settings firefox-dark-reader firefox-extension-google-search-link-fix garuda-firefox firefox-decentraleyes firefox-extension-canvasblocker firefox-extension-https-everywhere firefox-extension-keepassxc-browser firefox-extension-privacybadger firefox-extension-xdm-browser-monitor firefox-ublock-origin xdman garuda-welcome-git garuda-bluetooth garuda-boot-options-git garuda-gstreamer garuda-hooks garuda-ibus garuda-icons garuda-input garuda-modem garuda-network garuda-network-assistant-git garuda-settings-manager-git garuda-settings-manager-knotifier-git garuda-settings-samba garuda-vaapi garuda-wallpapers garuda-welcome-git garuda-xfce-settings garuda-zsh-config");
       break;
     case 'y':
 	  printf("Removing all annoying garuda packages.\n");
-	  system("pkexec pacman -R garuda-welcome-git garuda-browser-settings firefox-extension-google-search-link-fix garuda-firefox firefox-dark-reader firefox-decentraleyes firefox-extension-canvasblocker firefox-extension-https-everywhere firefox-extension-keepassxc-browser firefox-extension-privacybadger firefox-extension-xdm-browser-monitor firefox-ublock-origin xdman-2020");
+	  system("pkexec pacman -R garuda-welcome-git garuda-browser-settings firefox-extension-google-search-link-fix garuda-firefox firefox-dark-reader firefox-decentraleyes firefox-extension-canvasblocker firefox-extension-https-everywhere firefox-extension-keepassxc-browser firefox-extension-privacybadger firefox-extension-xdm-browser-monitor firefox-ublock-origin xdman");
 	  exit(0);
 	case 'h':
       printf("Ungaruda Help:\n");
